@@ -1,0 +1,13 @@
+{
+  "ntfy_topic": "frankie-fixr-CHANGE-ME-123",
+  "targets": [
+    {
+      "name": "Timepiece",
+      "url": "https://fixr.co/organiser/timepiece"
+    },
+    {
+      "name": "Cavern",
+      "url": "https://fixr.co/venue/1107"
+    }
+  ]
+}

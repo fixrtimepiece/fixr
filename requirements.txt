@@ -1,0 +1,2 @@
+# Standard library only for now (urllib, json, re) -- no dependencies required.
+# Kept here in case we need to upgrade to BeautifulSoup / Playwright later.
