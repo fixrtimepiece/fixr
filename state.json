@@ -1,0 +1,30 @@
+{
+  "Timepiece": {
+    "events": {
+      "193620795": {
+        "label": "Wednesday 23.09Wednesday 23 SeptemberTimepiece Nightclub",
+        "status": "available"
+      },
+      "46318800": {
+        "label": "Indie Thursday LaunchThursday 24 SeptemberTimepiece Nightclub",
+        "status": "available"
+      },
+      "126499106": {
+        "label": "SKETCH 25.09Friday 25 SeptemberTimepiece Nightclub",
+        "status": "available"
+      },
+      "88077893": {
+        "label": "Saturday 26.09Saturday 26 SeptemberTimepiece Nightclub",
+        "status": "available"
+      }
+    }
+  },
+  "Cavern": {
+    "events": {
+      "62878639": {
+        "label": "DB: Cavern TuesdayTuesday 29 SeptemberCavern, Exeter",
+        "status": "unknown"
+      }
+    }
+  }
+}
