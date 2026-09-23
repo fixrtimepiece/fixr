@@ -1,0 +1,41 @@
+name: Fixr ticket monitor
+
+on:
+  schedule:
+    # Fires every 5 minutes (GitHub's minimum), but only during a window
+    # covering 8am-8pm UK time year-round. UTC 7-20 covers 8am-8pm BST
+    # (UTC+1, summer) and comfortably overlaps 8am-8pm GMT (winter) too --
+    # a little extra margin at each end is harmless, it just finds nothing
+    # to do outside the real on-sale hours.
+    - cron: "*/5 7-20 * * *"
+  workflow_dispatch: {}   # lets you trigger a manual run from the Actions tab
+
+concurrency:
+  group: fixr-monitor
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Poll every 30 seconds for ~4.5 minutes
+        run: |
+          END=$((SECONDS + 270))
+          while [ $SECONDS -lt $END ]; do
+            python fixr_monitor.py
+            sleep 30
+          done
+
+      - name: Save updated state
+        run: |
+          git config user.name "fixr-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git diff --quiet --cached || git commit -m "update state"
+          git push
