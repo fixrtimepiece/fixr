@@ -43,11 +43,23 @@
       },
       "568780970": {
         "label": "Boujee 06.10Tuesday 6 OctoberTimepiece Nightclub",
-        "status": "available"
+        "status": "unknown"
       },
       "309507088": {
         "label": "Country Take Over at The Timepiece RanchThursday 8 OctoberTimepiece Nightclub",
-        "status": "available"
+        "status": "unknown"
+      },
+      "43104889": {
+        "label": "Wednesday 07.10Wednesday 7 OctoberTimepiece Nightclub",
+        "status": "unknown"
+      },
+      "194448799": {
+        "label": "SKETCH 09.10Friday 9 OctoberTimepiece Nightclub",
+        "status": "unknown"
+      },
+      "745336278": {
+        "label": "Saturday 10.10Saturday 10 OctoberTimepiece Nightclub",
+        "status": "unknown"
       }
     }
   },
@@ -63,7 +75,7 @@
       },
       "59169179": {
         "label": "DB: Cavern TuesdayTuesday 6 OctoberCavern, Exeter",
-        "status": "available"
+        "status": "unknown"
       }
     }
   }
