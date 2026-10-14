@@ -76,6 +76,14 @@
       "378555858": {
         "label": "Wednesday 14.10Wednesday 14 OctoberTimepiece Nightclub",
         "status": "available"
+      },
+      "533020416": {
+        "label": "SKETCH 16.10Friday 16 OctoberTimepiece Nightclub",
+        "status": "available"
+      },
+      "47559228": {
+        "label": "Saturday 17.10Saturday 17 OctoberTimepiece Nightclub",
+        "status": "available"
       }
     }
   },
@@ -99,6 +107,10 @@
       },
       "763549582": {
         "label": "Whole club social - Dress as your typeTuesday 13 OctoberCavern, Exeter",
+        "status": "available"
+      },
+      "482721310": {
+        "label": "ParadiseFriday 16 OctoberCavern, Exeter",
         "status": "available"
       }
     }
